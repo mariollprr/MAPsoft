@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/styles.css">
+   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+   <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+   <title>¿Quiénes somos? | MAPsoft</title>
 </head>
 <body>
-    
+   <!-- Header (logo and navbar) -->
+   <header class="main-header">
+      <div class="content-wrapper">
+         <a href="/">
+            <img src="images/logo-bmapsoft.svg" alt="Logo MAPsoft">
+         </a>
+         <span id="open-menu-button" class="jam jam-menu"></span>
+         <nav id="main-menu" class="main-menu">
+            <span id="close-menu-button" class="jam jam-close"></span>
+            <ul>
+               <li>
+                  <a href="/">Inicio</a>
+               </li>
+               <li>
+                  <a href="quienes-somos.html">¿Quiénes somos?</a>
+               </li>
+               <li>
+                  <a href="proyectos.html">Proyectos</a>
+               </li>
+               <li>
+                  <a href="contacto.html">Contacto</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <main class="main">
+    <section class="about-us section-container">
+        <h1>¿Quiénes somos?</h1>
+        <div class="content-wrapper">
+            <article class="about-item">
+                <div class="image-container">
+                    <img src="images/about-1.jpg" alt="Equipo">
+                </div>
+                <div>
+                    <h2>Sobre nosotros</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas ex eu efficitur porta. Pellentesque tristique congue ex vel placerat. Fusce fermentum ante id sem suscipit venenatis. Morbi feugiat ut diam ac blandit. Morbi ac risus condimentum, egestas arcu sed, facilisis mauris.</p>
+                </div>
+            </article>
+            <article class="about-item">
+                <div class="image-container">
+                    <img src="images/about-2.jpg" alt="Trabajo">
+                </div>
+                <div>
+                    <h2>Misión</h2>
+                    <p>Suspendisse tincidunt a ligula vitae condimentum. Aliquam dignissim a ipsum a posuere. Fusce tristique vestibulum lobortis. Praesent et quam in tortor mollis sagittis at sit amet tortor. Sed aliquam neque et arcu tempus facilisis sit amet ut odio. Vivamus convallis arcu dolor.</p>
+                </div>
+            </article>
+            <article class="about-item">
+                <div class="image-container">
+                    <img src="images/about-3.jpg" alt="Agenda">
+                </div>
+                <div>
+                    <h2>Visión</h2>
+                    <p>Integer placerat congue tellus, ut faucibus neque fermentum eget. Sed quis velit diam. Duis consequat, libero id pulvinar efficitur, sem eros maximus ligula, et pretium purus arcu ac ipsum. Nunc vel augue porta, euismod ligula bibendum, malesuada metus.</p>
+                </div>
+            </article>
+        </div>
+
+    </section>
+   </main>
+
+   <footer class="main-footer">
+    <p>Todos los derechos reservados &copy; 2022 | MAPsoft tech labs agency</p>
+ </footer>
+ <script src="/scripts/menu.js"></script>
 </body>
 </html>
