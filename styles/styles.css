@@ -361,6 +361,10 @@ h4 {
   background : var(--primary-color);
 }
 
+.text-banner {
+  font-size: var(--big-font-size );
+  color:  var(--white-color);
+}
 @media screen and (min-width: 1024px) {
 
   .main-banner {
